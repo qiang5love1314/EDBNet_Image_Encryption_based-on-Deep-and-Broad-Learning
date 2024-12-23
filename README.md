@@ -14,27 +14,16 @@ Key contributions include:
 
 Experimental results demonstrate that EDBNet achieves state-of-the-art performance in terms of cipher entropy, encryption quality, and real-time processing.  
 
-## Features  
-- **Deep and Broad Learning Framework**: Combines CNNs and broad learning to generate robust encryption features.  
-- **Chaotic Cryptography**: Enhances encryption with secure scrambling, diffusion, and SHA3-256.  
-- **Real-Time Encryption**: Achieves encryption and decryption in approximately 1 second.  
-- **High Security and Performance**: Outperforms traditional methods with an average cipher entropy of 7.9971 and encryption quality of 248.  
-
 ## Usage  
 The key scripts in this project are:  
 - `EncryBroNet.py`: Demonstrates the encryption process with medical images, and it also includes the model training process using the COVID-CT-Dataset.  
 - `DecryBroNet.py`: Recovers the original medical images from the encrypted data.  
 
-To run the program:  
-1. Clone this repository.  
-2. Install dependencies listed in `requirements.txt`.  
-3. Execute the encryption or decryption script with example data.  
-
 ## Results  
 Extensive experiments validate the efficiency and security of EDBNet:  
 - **High Security**: Achieves an average cipher entropy of **7.9971**, making it highly resistant to attacks.  
 - **Encryption Quality**: Scores a high encryption quality of **248**, ensuring robust protection for medical images.  
-- **Real-Time Performance**: Both encryption and decryption complete within **1 second**, enabling practical use in IoT-based medical systems.  
+- **Real-Time Performance**: Both encryption and decryption complete within **1 s**, enabling practical use in IoT-based medical systems.  
 
 ## Citation  
 If you find this work helpful, please cite:  
